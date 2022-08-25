@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;  
+}
+body{
+    font-family: open sans sans-serif;
+    margin: 0;
+}
+h1,h2{
+    font-family: popins sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+    box-shadow: 0 0 10px rgb(0, 0, 15);
+}
+.btn_btn-primary_btn-big{
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+    box-shadow: 0 0 10px rgb(0, 0, 15);
+    background-color: rgba(248, 58, 169, 0.973);
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+.center{
+    text-align: center;
+}
+.btn-primary{
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+    box-shadow: 0 0 10px rgb(0, 0, 15);
+   background-color: rgba(248, 58, 169, 0.973);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex > div{
+    flex: 1;
+   
+}
+
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 0;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.box{
+    box-shadow: 0 0 10px rgb(0, 0, 0.5);
+    border-radius: 15px;
+    margin: 40px 0;
+    padding: 70px;
+    background-color: #fff;
+}
+.small-box{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -50%;
+}
+.box img{
+    width: 80%;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 180px 0 60px;
+    margin-top: -100px;
+    position: relative;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+     
+}
+footer ul li{
+    margin-bottom: 20px;
+}
+ul .socials{
+    display: flex;
+}
+footer ul .flex li{
+
+}
+footer ul li a{
+    border: 1px solid#fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    display: inline-block;
+
+}
